@@ -5,7 +5,7 @@ mkdir -p $(date +%Y)
 cd $(date +%Y)
 mkdir -p $(date +%Y-%m)
 cd $(date +%Y-%m)
-cp ../../../ett-py/ett.db "ett-$(date +%Y-%m-%d).py"
+cp ../../../ett-py/ett.db "ett-$(date +%Y-%m-%d).db"
 
 cd ../..
 git add .
